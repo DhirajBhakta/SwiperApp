@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dbk.com.swiperapp.NetworkingActivity"
+    tools:showIn="@layout/activity_networking"
+    android:background="@drawable/wall">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/hostButton"
+        android:layout_marginTop="41dp"
+        style="@style/Base.Widget.AppCompat.ImageButton"
+        android:background="@drawable/host"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/joinButton"
+        android:layout_alignStart="@+id/joinButton" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/joinButton"
+        android:background="@drawable/client"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="HOST"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/hostButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#294a03"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CLIENT"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/joinButton"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="108dp"
+        android:textStyle="bold" />
+</RelativeLayout>

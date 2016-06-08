@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Player"
+        android:typeface="monospace"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:id="@+id/singlePlayerButton"
+        style="@android:style/TextAppearance.DeviceDefault.Widget.Button"
+        android:textColor="#118d0f"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi Player"
+        android:typeface="monospace"
+        android:id="@+id/multiPlayerButton"
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/singlePlayerButton"
+        android:layout_alignRight="@+id/singlePlayerButton"
+        android:layout_alignEnd="@+id/singlePlayerButton"
+        style="@android:style/TextAppearance.DeviceDefault.Widget.Button"
+        android:textColor="#09bb26" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Holo.Inverse"
+        android:text="Swiper App"
+        android:typeface="monospace"
+        android:id="@+id/textView"
+        android:textSize="50dp"
+        android:textColor="#0b6a05"
+        android:textStyle="bold"
+        android:layout_below="@+id/multiPlayerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp" />
+</RelativeLayout>

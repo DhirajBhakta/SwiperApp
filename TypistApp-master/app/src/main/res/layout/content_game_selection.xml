@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dbk.com.swiperapp.GameSelectionActivity"
+    tools:showIn="@layout/activity_game_selection"
+    android:background="@drawable/wall">
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Boost Mode"
+        android:id="@+id/boostModeButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#08a31c"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/paraModeButton"
+        android:layout_alignStart="@+id/paraModeButton"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Para Mode"
+        android:id="@+id/paraModeButton"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:background="#072189"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Choose Game Mode"
+        android:id="@+id/modeTitle"
+        android:textColor="#383d37"
+        android:textStyle="bold|italic"
+        android:textSize="35dp"
+        android:layout_marginBottom="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

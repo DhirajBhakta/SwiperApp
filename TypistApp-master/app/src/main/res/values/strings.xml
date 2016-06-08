@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SWIPER-APP</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_game_selection">GameSelectionActivity</string>
+    <string name="title_activity_boost_mode">BoostModeActivity</string>
+    <string name="title_activity_networking">NetworkingActivity</string>
+    <string name="title_activity_devices_list">DevicesListActivity</string>
+</resources>
